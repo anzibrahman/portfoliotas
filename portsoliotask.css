@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+nav{
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-between;
+    color: rgb(253, 252, 253);
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px coral;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+h1:hover{
+    color: aliceblue;
+    text-shadow: 4px 6px 8px;
+}
+span{
+    color: brown;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content: "";
+    background-image: url(https://www.pinkvilla.com/images/2023-08/308426635_srk-l.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset cornflowerblue;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 900px;
+    left: 75%;
+    box-shadow: 4px 6px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+.pic h4{
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color: brown;
+    text-align: center;
+    margin: 15PX;
+    text-shadow: 4px 5px 6px;
+}
+.gallery{
+    justify-content: space-between;
+    box-shadow: 3px 4px 5px 8px cornflowerblue;
+}
+.gallery img{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 8px crimson;
+}
+.row{
+    display: flex;
+
+}
+.box{
+    width: 400px;
+    height: 700px;
+    margin: 20px;
+    background: linear-gradient(to top, red,blue);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+
+}
+.box:hover{
+    background-position: right bottom;
+    border: 4px ridge blueviolet;
+    box-shadow: 3px 4px 8px blue;
+}
+.box img{
+    width: 100%;
+
+}
+.box h5{
+    color: blue;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 4px 5px 6px;
+}
+.box p{
+    text-align: justify;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color:yellow;
+    background-color: black;
+}
+.cv{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 1150px;
+
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+  }
+  
